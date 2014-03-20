@@ -1,4 +1,4 @@
-module Slide2 where
+module Slide where
 
 -- | Recap
 -- * FUNCTIONS

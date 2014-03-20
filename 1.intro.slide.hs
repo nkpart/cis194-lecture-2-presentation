@@ -1,4 +1,4 @@
-module Slide1 where
+module Slide where
 
 title :: String
 title = "CIS194 Lecture Two - Algebraic Data Types"
