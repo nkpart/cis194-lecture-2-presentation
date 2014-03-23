@@ -1,11 +1,11 @@
 -- ADTs
--- Matching
+-- Declaring
 
 data Rating = Rating Int
             deriving (Eq, Show)
 
-add10 :: Rating -> Rating
-add10 (Rating score) = Rating (score + 10)
+makeRating :: Int -> Rating
+makeRating score = Rating score
 
 -- {{{
 main = return ()-- }}}
