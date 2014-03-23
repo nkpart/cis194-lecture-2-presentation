@@ -1,4 +1,4 @@
-module Slide where
+-- WELCOME
 
 title :: String
 title = "CIS194 Lecture Two - Algebraic Data Types"
@@ -11,5 +11,9 @@ whoAmI = "Nick Partridge"
 -- {{{
 -- > main = do
 -- >   profile "Slide"
--- -setlocal number
+-- :setlocal nonumber
+-- }}}
+--
+-- {{{
+main = return ()
 -- }}}
