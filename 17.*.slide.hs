@@ -10,5 +10,8 @@ match (Constructor1 a) = ..
 match (Constructor2 p q) = ..
 match Constructor3 = ..
 
-
-
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}
