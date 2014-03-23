@@ -1,18 +1,11 @@
-
-
--- 1. Recap Functions
-
-
--- ==
-
 -- Recap 1
 -- Functions
   
 import Data.Time
 
-presentationAge :: UTCTime -> NominalDiffTime-- {{{
+presentationAge :: UTCTime -> NominalDiffTime
 presentationAge viewingTime = 
-    diffUTCTime viewingTime showingTime -- }}}
+    diffUTCTime viewingTime showingTime
 
 showingTime = -- {{{
     localTimeToUTC brisbane (LocalTime day time)
@@ -34,3 +27,8 @@ main = do-- {{{
 -- * Rich types for time. Hard to use but awesome.
 -- * Easy to declare data
 -- * -- }}}
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

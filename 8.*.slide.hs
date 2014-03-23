@@ -1,14 +1,19 @@
 -- Enumerations
--- Summary
+-- Matching
 
-data Foo = Baz | Bar | Boo
+import Prelude hiding (True, False, and, Bool)-- {{{-- }}}
 
--- We get
--- * a type Foo
--- * 3 constructors that return things
---   that are of type `Foo`
--- * Patterns to match on them
--- * No free equality or to string
+data Bool = True
+          | False
+          -- {{{
+          | FileNotFound
+          -- }}}
+
+and :: Bool -> Bool -> Bool-- {{{
+and True True = True
+and True False = False
+and False True = False
+and False False = False-- }}}
 
 -- {{{
 main = return ()-- }}}
