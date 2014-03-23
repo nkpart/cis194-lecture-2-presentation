@@ -20,5 +20,3 @@ mmm.each do |x|
   p [x, new_name]
   FileUtils.mv(x, new_name)
 end
-
-

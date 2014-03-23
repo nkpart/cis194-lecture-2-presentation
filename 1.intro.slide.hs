@@ -13,7 +13,6 @@ whoAmI = "Nick Partridge"
 -- >   profile "Slide"
 -- :setlocal nonumber
 -- }}}
---
 -- {{{
 main = return ()
 -- }}}

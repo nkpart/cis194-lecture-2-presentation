@@ -1,19 +1,13 @@
 -- Enumerations
 -- Matching
 
-import Prelude hiding (True, False, and, Bool)-- {{{-- }}}
+data Rating = Good
+            | Bad
+            deriving (Eq, Show)
 
-data Bool = True
-          | False
-          -- {{{
-          | FileNotFound
-          -- }}}
-
-and :: Bool -> Bool -> Bool-- {{{
-and True True = True
-and True False = False
-and False True = False
-and False False = False-- }}}
+isBad :: Rating -> Bool
+isBad Bad = True
+isBad Good = False
 
 -- {{{
 main = return ()-- }}}
