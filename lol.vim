@@ -1,2 +1,1 @@
 setlocal background=
-setlocal nonumber

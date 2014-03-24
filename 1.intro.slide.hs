@@ -1,7 +1,8 @@
 -- WELCOME
 
 title :: String
-title = "CIS194 Lecture Two - Algebraic Data Types"
+title = 
+  "CIS194 Lecture Two - Algebraic Data Types"
 
 subtitle :: String
 subtitle = "VIM EDITION"
