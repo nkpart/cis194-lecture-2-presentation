@@ -17,12 +17,12 @@ jamieVsJames = WinnerOf (Player "Jamie") (Player ("James"))
 -- NOTES
 -- * timVsNick is a pass
 -- {{{
-drawComp :: MatchUp -> String
-drawComp (Player n) = n
-drawComp (WinnerOf a b) =
-    "(" ++ drawComp a ++ " vs " ++ drawComp b ++ ")"
+showComp :: MatchUp -> String
+showComp (Player n) = n
+showComp (WinnerOf a b) =
+    "(" ++ showComp a ++ " vs " ++ showComp b ++ ")"
 
-main = print . drawComp $ vlcTableTennis-- }}}
+main = print (showComp vlcTableTennis)-- }}}
 
 -- {{{
 -- > main = do

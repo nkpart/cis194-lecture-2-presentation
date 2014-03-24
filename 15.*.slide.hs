@@ -1,4 +1,4 @@
--- ADTs
+-- Algebraic Data Types
 -- The General Pattern
 
 data TypeName = Constructor1 ArgTypeA

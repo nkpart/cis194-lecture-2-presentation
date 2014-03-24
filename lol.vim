@@ -1,1 +1,2 @@
 setlocal background=
+setlocal nonumber

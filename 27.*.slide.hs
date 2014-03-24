@@ -7,6 +7,10 @@ startsWithZ :: String -> Bool
 startsWithZ ('Z':_) = True
 startsWithZ _ = False
 
+movieStartsWithZ :: Entertainment -> Bool
+movieStartsWithZ (Movie ('Z':_)) = True
+movieStartsWithZ _ = False
+
 -- {{{
 main = return ()-- }}}
 -- {{{

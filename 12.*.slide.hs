@@ -1,11 +1,16 @@
 -- ADTs
 -- Declaring
 
-data Rating = Rating Int
+data Rating = MakeRating Int
             deriving (Eq, Show)
 
 makeRating :: Int -> Rating
-makeRating score = Rating score
+makeRating score = MakeRating score
 
 -- {{{
 main = return ()-- }}}
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

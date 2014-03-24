@@ -6,9 +6,10 @@ data TypeName = Constructor1 ArgTypeA
               | Constructor3
               deriving (..)
 
-match (Constructor1 a) = ..
-match (Constructor2 p q) = ..
-match Constructor3 = ..
+someFunction :: TypeName -> ..
+someFunction (Constructor1 a) = ..
+someFunction (Constructor2 p q) = ..
+someFunction Constructor3 = ..
 
 -- {{{
 -- > main = do

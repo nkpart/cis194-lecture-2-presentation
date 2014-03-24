@@ -1,7 +1,9 @@
 -- Enumerations
 -- Summary
 
-data Foo = Baz | Bar | Boo
+data Foo = Baz 
+         | Bar 
+         | Boo
 
 -- We get
 -- * a type Foo

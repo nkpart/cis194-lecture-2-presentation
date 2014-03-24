@@ -1,10 +1,23 @@
 -- Pattern Matching
 -- Wildcards
 
+data Entertainment = 
+             Movie String
+           | Series String Int
+           | Juggling
+
 showE :: Entertainment -> String
 showE (Movie name) = name
 showE (Series name _) = name
 showE _ = "can't show me"
 
-showMovie p@(Movie _) = showE p
+myFavouriteFriendsEpisode = Series "Friends" 3-- {{{
+
+showMyEpisode = showE myFavouriteFriendsEpisode-- }}}
+
+showMovie :: Entertainment -> String
+showMovie p@(Movie n) = showE p
 showMovie _ = ""
+
+-- {{{
+main = return ()-- }}}

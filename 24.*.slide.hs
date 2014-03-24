@@ -4,10 +4,10 @@
 data MatchUp = Player String
              | WinnerOf MatchUp MatchUp
 
-drawComp :: MatchUp -> String
-drawComp (Player n) = n
-drawComp (WinnerOf a b) =
-    "(" ++ drawComp a ++ " vs " ++ drawComp b ++ ")"
+showComp :: MatchUp -> String
+showComp (Player n) = n
+showComp (WinnerOf a b) =
+    "(" ++ showComp a ++ " vs " ++ showComp b ++ ")"
 
 -- {{{
 main = return ()-- }}}

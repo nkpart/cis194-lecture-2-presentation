@@ -1,8 +1,10 @@
 -- Homework Tips
 -- Understand the Data
 
-data MessageType = Info | Warning | Error Int
-                    deriving (Show, Eq)
+data MessageType = Info 
+                 | Warning 
+                 | Error Int
+                  deriving (Show, Eq)
 
 type TimeStamp = Int
 
