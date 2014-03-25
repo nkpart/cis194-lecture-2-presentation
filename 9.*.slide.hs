@@ -1,5 +1,5 @@
 -- Enumerations
--- Matching
+-- Matching with Wildcards
 
 -- {{{
 import Prelude hiding (True, False, and, Bool)-- }}}

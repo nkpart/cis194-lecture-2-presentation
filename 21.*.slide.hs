@@ -1,3 +1,4 @@
+-- ADTs
 -- Case Expressions
 
 showR :: Rating -> String

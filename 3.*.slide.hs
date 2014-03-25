@@ -2,7 +2,7 @@
 
 
 
--- 1. Recap Functions
+-- Recap Functions
 
 
 

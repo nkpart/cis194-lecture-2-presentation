@@ -1,13 +1,14 @@
--- WELCOME
+
+-- Background
 
 title :: String
-title = 
-  "CIS194 Lecture Two - Algebraic Data Types"
+title = "CIS194 Lecture Two - Algebraic Data Types"
 
-subtitle :: String
-subtitle = "VIM EDITION"
+author = "Brent Yorgey"
 
-whoAmI = "Nick Partridge"
+variant = "VIM EDITION"
+
+deliveredBy = "Nick Partridge"
 
 -- {{{
 -- > main = do

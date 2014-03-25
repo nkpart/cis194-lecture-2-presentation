@@ -4,14 +4,13 @@
 import Data.Time
 
 presentationAge :: UTCTime -> NominalDiffTime
-presentationAge viewingTime = 
-    diffUTCTime viewingTime showingTime
+presentationAge viewingTime = diffUTCTime viewingTime showingTime
 
 showingTime = -- {{{
     localTimeToUTC brisbane (LocalTime day time)
 
 day = fromGregorian 2014 3 26
-time = TimeOfDay 18 0 0
+time = TimeOfDay 18 5 0
 brisbane = hoursToTimeZone 10-- }}}
 
 main = do-- {{{

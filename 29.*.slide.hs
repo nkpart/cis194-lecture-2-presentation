@@ -23,12 +23,6 @@ someMessage = LogMessage Info 4 "Message text goes here"
 justWarnings (LogMessage Warning _ message) = message
 justWarnings _ = ""
 
-data MessageTree = 
-    Leaf
-  | Node MessageTree LogMessage MessageTree
-  deriving (Show, Eq)
-
-
 -- {{{
 main = return ()-- }}}
 -- {{{

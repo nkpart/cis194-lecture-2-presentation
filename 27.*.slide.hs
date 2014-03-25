@@ -1,11 +1,12 @@
 -- Homework Tips
-
--- * Strings are lists
--- * Pattern matching on literals
+-- Matching on Lists and Literals
 
 startsWithZ :: String -> Bool
 startsWithZ ('Z':_) = True
 startsWithZ _ = False
+
+data Entertainment = Movie String
+                   | Series String Int
 
 movieStartsWithZ :: Entertainment -> Bool
 movieStartsWithZ (Movie ('Z':_)) = True

@@ -10,6 +10,8 @@ data Entertainment =
 --  * 3 constructors, 2 with arguments
 
 -- {{{
+main = return ()-- }}}
+-- {{{
 -- > main = do
 -- >   profile "Slide"
 -- :setlocal nonumber

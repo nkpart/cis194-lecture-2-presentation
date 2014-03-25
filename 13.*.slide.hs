@@ -1,11 +1,10 @@
 -- ADTs
 -- Matching
 
-data Rating = MakeRating Int String
+data Rating = MakeRating Int
 
 add10 :: Rating -> Rating
-add10 (MakeRating score reviewer) = 
-    MakeRating (score + 10) reviewer
+add10 (MakeRating score) = MakeRating (score + 10)
 
 -- NOTES
 -- * Bound 'score' to the int inside rating

@@ -2,8 +2,7 @@
 
 
 
-
--- Pattern Matching
+-- Intro to Data Types in Haskell
 
 
 
