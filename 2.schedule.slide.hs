@@ -8,4 +8,10 @@ schedule =
     , "5. Case expressions"
     , "6. Recursive Data"
     , "7. Homework Tips"
-  ] ++ repeat "x. Examples"
+    ]
+
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

@@ -15,3 +15,8 @@ add10 (MakeRating score reviewer) =
 
 -- {{{
 main = return ()-- }}}
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

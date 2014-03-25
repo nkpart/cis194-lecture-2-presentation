@@ -11,3 +11,9 @@ data TypeName = Constructor1 ArgTypeA
 -- * Types must be types 
 --    - primitives or your own
 --    - But *not* constructors.
+
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

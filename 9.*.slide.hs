@@ -16,3 +16,8 @@ and False False = False
 
 -- {{{
 main = return ()-- }}}
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

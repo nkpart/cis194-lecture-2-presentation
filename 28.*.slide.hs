@@ -7,3 +7,9 @@ main = do
 
   print $ take 1 ["a", "b", "c"] == ["a"]
   print $ drop 1 ["a", "b", "c"] == ["b", "c"]
+
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

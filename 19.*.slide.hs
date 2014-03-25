@@ -17,3 +17,8 @@ showR (Rating score (Series name ep)) =
 
 -- {{{
 main = return ()-- }}}
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

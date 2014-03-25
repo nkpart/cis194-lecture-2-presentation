@@ -14,3 +14,8 @@ data Foo = Baz
 
 -- {{{
 main = return ()-- }}}
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

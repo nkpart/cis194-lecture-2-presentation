@@ -8,3 +8,9 @@ data Entertainment =
 -- NOTES
 --  * 1 type
 --  * 3 constructors, 2 with arguments
+
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}

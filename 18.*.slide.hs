@@ -20,4 +20,9 @@ showMovie p@(Movie n) = showE p
 showMovie _ = ""
 
 -- {{{
-main = return ()-- }}}
+m--ain = return ()-- }}}
+-- {{{
+-- > main = do
+-- >   profile "Slide"
+-- :setlocal nonumber
+-- }}}
