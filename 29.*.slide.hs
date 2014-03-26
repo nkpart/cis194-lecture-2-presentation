@@ -9,7 +9,6 @@ data MessageType = Info
 x = Info
 fail = Error 5
 
-
 -- Type Alias
 type TimeStamp = Int
 
